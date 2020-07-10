@@ -1,5 +1,7 @@
 ## Cryptography
 
+<table border=0><tr><td valign=top>
+
 ### Algorithms
 * [blake2b](https://github.com/emilbayes/blake2b)
 * [hmac-blake2b](https://github.com/emilbayes/hmac-blake2b)
@@ -9,6 +11,8 @@
 * [pedersen-tree](https://github.com/emilbayes/pedersen-tree)
 * [xchacha20](https://github.com/emilbayes/xchacha20)
 
+</td><td valign=top>
+
 ### Randomness
 * [secure-random-double](https://github.com/emilbayes/secure-random-double)
 * [secure-random-uniform](https://github.com/emilbayes/secure-random-uniform)
@@ -16,6 +20,8 @@
 * [secure-shuffle](https://github.com/emilbayes/secure-shuffle)
 * [secure-weighted-sample](https://github.com/emilbayes/secure-weighted-sample)
 * [eff-diceware-passphrase](https://github.com/emilbayes/eff-diceware-passphrase)
+
+</td><td valign=top>
 
 ### Applied modules
 * [secure-password](https://github.com/emilbayes/secure-password)
@@ -27,16 +33,21 @@
 * [provably-fair-rng](https://github.com/emilbayes/provably-fair-rng)
 * [password-encrypted-overlay](https://github.com/emilbayes/password-encrypted-overlay)
 
+</td></tr><tr><td valign=top>
+
 ### Noise Protocol
 * [noise-protocol](https://github.com/emilbayes/noise-protocol)
 * [simple-handshake](https://github.com/emilbayes/simple-handshake)
 * [noise-p2p](https://github.com/emilbayes/noise-p2p)
 * [noise-peer](https://github.com/emilbayes/noise-peer)
+</td><td valign=top>
 
 ### DHT
 * [sodium2supercop](https://github.com/emilbayes/sodium2supercop)
 * [bittorrent-dht-sodium](https://github.com/emilbayes/bittorrent-dht-sodium)
 * [rendezvous-point](https://github.com/emilbayes/rendezvous-point)
+
+</td><td valign=top>
 
 ### Key management
 * [secure-key-management](https://github.com/emilbayes/secure-key-management)
@@ -44,6 +55,9 @@
 * [secure-read-key](https://github.com/emilbayes/secure-read-key)
 * [secure-destroy-key](https://github.com/emilbayes/secure-destroy-key)
 * [mindvault](https://github.com/emilbayes/mindvault)
+
+</td></tr></table>
+
 
 ### Ideas
 * [abstract-algebra-fun](https://github.com/emilbayes/abstract-algebra-fun)
@@ -56,11 +70,15 @@
 
 ## WASM
 
+<table border=0><tr><td valign=top>
+
 ### Modules
 * [bswap-wasm](https://github.com/emilbayes/bswap-wasm)
 * [next-pow2-wasm](https://github.com/emilbayes/next-pow2-wasm)
 * [djb2](https://github.com/emilbayes/djb2)
 * [libws](https://github.com/emilbayes/libws)
+
+</td><td valign=top>
 
 ### Guides and tools
 * [wat2wasm](https://github.com/emilbayes/wat2wasm)
@@ -68,6 +86,19 @@
 * [wat-tokenizer](https://github.com/emilbayes/wat-tokenizer)
 * [watup](https://github.com/emilbayes/watup)
 * [memory-visualiser](https://github.com/emilbayes/memory-visualiser)
+
+
+</td></tr></table>
+
+
+<details>
+<summary>
+
+## More modules!
+
+</summary>
+
+<table border=0><tr><td valign=top>
 
 ## Algorithms
 * [compare](https://github.com/emilbayes/compare)
@@ -77,9 +108,7 @@
 * [base32-encoding](https://github.com/emilbayes/base32-encoding)
 * [double-utils](https://github.com/emilbayes/double-utils)
 
-## Data structures
-* [capped-array](https://github.com/emilbayes/capped-array)
-* [multiset](https://github.com/emilbayes/multiset)
+</td><td valign=top>
 
 ## Buffers
 * [biguintle](https://github.com/emilbayes/biguintle)
@@ -88,11 +117,7 @@
 * [buffer-urlencoded](https://github.com/emilbayes/buffer-urlencoded)
 * [clz-buffer](https://github.com/emilbayes/clz-buffer)
 
-## Streams
-* [secure-concat](https://github.com/emilbayes/secure-concat)
-* [read-bytes-stream](https://github.com/emilbayes/read-bytes-stream)
-* [tail-bytes-stream](https://github.com/emilbayes/tail-bytes-stream)
-* [multi-duplex-stream](https://github.com/emilbayes/multi-duplex-stream)
+</td><td valign=top>
 
 ## Validation
 * [nanoassert](https://github.com/emilbayes/nanoassert)
@@ -100,17 +125,35 @@
 * [is-http-url](https://github.com/emilbayes/is-http-url)
 * [is-secure-buffer](https://github.com/emilbayes/is-secure-buffer)
 
+</td></tr><tr><td valign=top>
+
+## Data structures
+* [capped-array](https://github.com/emilbayes/capped-array)
+* [multiset](https://github.com/emilbayes/multiset)
+* [parallel-queue](https://github.com/emilbayes/parallel-queue)
+
+</td><td valign=top>
+
+## Streams
+* [secure-concat](https://github.com/emilbayes/secure-concat)
+* [read-bytes-stream](https://github.com/emilbayes/read-bytes-stream)
+* [tail-bytes-stream](https://github.com/emilbayes/tail-bytes-stream)
+* [multi-duplex-stream](https://github.com/emilbayes/multi-duplex-stream)
+
+</td><td valign=top>
+
 ## State management
 * [inverted-promise](https://github.com/emilbayes/inverted-promise)
 * [set-interrupt](https://github.com/emilbayes/set-interrupt)
 * [siginfo](https://github.com/emilbayes/siginfo)
 * [depth-first-map](https://github.com/emilbayes/depth-first-map)
-* [parallel-queue](https://github.com/emilbayes/parallel-queue)
 * [sim-timer](https://github.com/emilbayes/sim-timer)
 * [object-tojson](https://github.com/emilbayes/object-tojson)
 * [object-transpose](https://github.com/emilbayes/object-transpose)
 * [observ-set](https://github.com/emilbayes/observ-set)
 * [auto-abort](https://github.com/emilbayes/auto-abort)
+
+</td></tr><tr><td valign=top>
 
 ## Application 
 * [pg-ipc](https://github.com/emilbayes/pg-ipc)
@@ -118,16 +161,22 @@
 * [shapefile-reader](https://github.com/emilbayes/shapefile-reader)
 * [fastify-mock-cognito](https://github.com/emilbayes/fastify-mock-cognito)
 
+</td><td valign=top>
+
 ## D3
 * [d3-autocomplete](https://github.com/emilbayes/d3-autocomplete)
 * [d3-locale-da-dk](https://github.com/emilbayes/d3-locale-da-dk)
 * [d3-transition-stroke](https://github.com/emilbayes/d3-transition-stroke)
 * [d3-utils](https://github.com/emilbayes/d3-utils)
 
+</td><td valign=top>
+
 ## DOM / Frontend
 * [mithril-history-router](https://github.com/emilbayes/mithril-history-router)
 * [dom-details-fallback](https://github.com/emilbayes/dom-details-fallback)
 * [dom-once](https://github.com/emilbayes/dom-once)
+
+</td></tr><tr><td valign=top>
 
 ## Cordova
 * [sync-cordova-xml](https://github.com/emilbayes/sync-cordova-xml)
@@ -136,12 +185,16 @@
 * [cordova-plugin-android-fullscreen](https://github.com/emilbayes/cordova-plugin-android-fullscreen)
 * [cordova-plugin-android-selfupdate](https://github.com/emilbayes/cordova-plugin-android-selfupdate)
 
+</td><td valign=top>
+
 ## Native Modules
 * [shared-library-example](https://github.com/emilbayes/shared-library-example)
 * [rename-dll](https://github.com/emilbayes/rename-dll)
 * [macos-touchid](https://github.com/emilbayes/macos-touchid)
 * [openbsd-pledge](https://github.com/emilbayes/openbsd-pledge)
 * [openbsd-unveil](https://github.com/emilbayes/openbsd-unveil)
+
+</td><td valign=top>
 
 ## Talks and Workshops
 * [learnhandwasm](https://github.com/emilbayes/learnhandwasm)
@@ -152,7 +205,11 @@
 * [code-europe-2017](https://github.com/emilbayes/code-europe-2017)
 * [fwdays-2017](https://github.com/emilbayes/fwdays-2017)
 
+</td></tr></table>
+
 ## Everything else
 * [electron-icons-sketch-template](https://github.com/emilbayes/electron-icons-sketch-template)
 * [random-benchmark](https://github.com/emilbayes/random-benchmark)
 * [dotfiles](https://github.com/emilbayes/dotfiles)
+
+</details>
